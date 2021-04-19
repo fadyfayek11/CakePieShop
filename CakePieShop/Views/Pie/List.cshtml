@@ -1,0 +1,13 @@
+﻿@model PiesListViewModel
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@Model.CurrentCategory</h1>
+
+@foreach (var pie in Model.Pies)
+{
+    <partial name="_PieCard" model="pie" />
+}
+
