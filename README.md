@@ -1,4 +1,6 @@
 # CakePieShop
+<h1>Using Asp .Net Core & Entity FrameWork</h>
+<h3>Repository Design Pattern</h3>
 <ul>
 <li>Home</li>
   <p>with the pies of the week</p>
